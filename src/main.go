@@ -20,19 +20,3 @@
 
 package main
 
-import (
-	"fmt"
-	Compiler "github.com/SolindekDev/Luna/src/LunaCompiler"
-	Error "github.com/SolindekDev/Luna/src/LunaError"
-	ErrorCodes "github.com/SolindekDev/Luna/src/LunaErrorCodes"
-	Lexer "github.com/SolindekDev/Luna/src/LunaLexer"
-	Parser "github.com/SolindekDev/Luna/src/LunaParser"
-)
-
-func main() {
-	Compiler.Compiler()
-	Error.Create_error()
-	fmt.Println(ErrorCodes.ERROR_CODE_001)
-	Lexer.Lexer()
-	Parser.Parser()
-}
