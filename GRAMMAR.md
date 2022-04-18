@@ -1,0 +1,37 @@
+# Grammar of Luna
+- Types:
+    - String 
+    - Int 
+    - Float
+    - Identifier 
+    - None
+    - Newline 
+    - Eof
+    - Null
+    - Operators:
+        - Lpar = (
+        - Rpar = )
+        - Plus = +
+        - Minus = -
+        - Divide = /
+        - Assignment = =  
+        - Multiply = *
+        - AddAssignment = +=  
+        - SubtractAssignment = -= 
+        - MultiplyAssignment = *= 
+        - DivideAssignment = /= 
+        - Increment = ++
+        - Decrement = --
+        - Modulus = %
+        - BiggerThan = <
+        - LessThan = >
+        - Equals = ==
+        - NotEquals = !=
+        - BiggerThanOrEquals = <= 
+        - LessThanOrEquals = >= 
+        - Or = |
+        - And = &
+        - Bang = !
+        - RightBracketRectangle = ] 
+        - LeftBracketRectangle = [
+        - StringJoin = <>
