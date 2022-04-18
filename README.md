@@ -1,5 +1,5 @@
 ![](https://raw.githubusercontent.com/SolindekDev/Luna/main/assets/Full%20Logo.png)
-# Luna
+# Luna Programming Language
 ## About
 Luna is a simple, fast, compiled programming language for writting various applications.
 ## Features
