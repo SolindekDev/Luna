@@ -1,6 +1,6 @@
 // ------------------------------------------------------------------------------------
 //
-//   Luna Programming Language Compiler - Main module
+//   Luna Programming Language Compiler - Lexer module
 //   Copyright (C) 2022 SolindekDev
 //
 //   This program is free software: you can redistribute it and/or modify
@@ -18,10 +18,10 @@
 //
 // ------------------------------------------------------------------------------------
 
-package main
+package LunaLexer
 
 import "fmt"
 
-func main() {
-	fmt.Println("Welcome to Luna Progrmaming Language!")
+func Lexer() {
+	fmt.Println("Welcome to Luna Progrmaming Language Lexer!")
 }

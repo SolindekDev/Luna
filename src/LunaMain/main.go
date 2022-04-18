@@ -1,6 +1,6 @@
 // ------------------------------------------------------------------------------------
 //
-//   Luna Programming Language Compiler - Compiler module
+//   Luna Programming Language Compiler - Main module
 //   Copyright (C) 2022 SolindekDev
 //
 //   This program is free software: you can redistribute it and/or modify
@@ -18,10 +18,18 @@
 //
 // ------------------------------------------------------------------------------------
 
-package LunaCompiler
+package main
 
-import "fmt"
+import (
+	"fmt"
+	Compiler   "github.com/SolindekDev/Luna/src/luna-compiler"
+	// Error      "github.com/SolindekDev/Luna/src/luna-error"
+	// ErrorCodes "github.com/SolindekDev/Luna/src/luna-error-codes"
+	// Lexer      "github.com/SolindekDev/Luna/src/luna-lexer"
+	// Parser     "github.com/SolindekDev/Luna/src/luna-parser"
+)
 
-func compiler() {
-	fmt.Println("Welcome to Luna Programming Language Compiler")
+func main() {
+	Compiler.Compiler();
+	fmt.Println("Welcome to Luna Progrmaming Language!")
 }

@@ -1,6 +1,6 @@
 // ------------------------------------------------------------------------------------
 //
-//   Luna Programming Language Compiler - Parser module
+//   Luna Programming Language Compiler - Error module
 //   Copyright (C) 2022 SolindekDev
 //
 //   This program is free software: you can redistribute it and/or modify
@@ -18,10 +18,10 @@
 //
 // ------------------------------------------------------------------------------------
 
-package LunaParser
+package LunaError
 
 import "fmt"
 
-func parser() {
-	fmt.Println("Welcome to Luna Progrmaming Language Parser!")
+func Create_error() {
+	fmt.Println("Creating error")
 }
