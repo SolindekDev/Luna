@@ -22,14 +22,17 @@ package main
 
 import (
 	"fmt"
-	Compiler   "github.com/SolindekDev/Luna/src/luna-compiler"
-	// Error      "github.com/SolindekDev/Luna/src/luna-error"
-	// ErrorCodes "github.com/SolindekDev/Luna/src/luna-error-codes"
-	// Lexer      "github.com/SolindekDev/Luna/src/luna-lexer"
-	// Parser     "github.com/SolindekDev/Luna/src/luna-parser"
+	Compiler "github.com/SolindekDev/Luna/src/LunaCompiler"
+	Error "github.com/SolindekDev/Luna/src/LunaError"
+	ErrorCodes "github.com/SolindekDev/Luna/src/LunaErrorCodes"
+	Lexer "github.com/SolindekDev/Luna/src/LunaLexer"
+	Parser "github.com/SolindekDev/Luna/src/LunaParser"
 )
 
 func main() {
-	Compiler.Compiler();
-	fmt.Println("Welcome to Luna Progrmaming Language!")
+	Compiler.Compiler()
+	Error.Create_error()
+	fmt.Println(ErrorCodes.ERROR_CODE_001)
+	Lexer.Lexer()
+	Parser.Parser()
 }
