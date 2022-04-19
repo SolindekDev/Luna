@@ -10,3 +10,10 @@ Luna is a simple, fast, compiled programming language for writting various appli
 - Dynamic types
 - Free and open source 
 - Fast compiler
+## TODO
+- [x] Main
+- [x] Tokens
+- [x] Lexer
+- [ ] Parser
+- [ ] Compiler
+- [ ] Self Compiler
