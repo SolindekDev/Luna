@@ -1,6 +1,6 @@
 ![](https://raw.githubusercontent.com/SolindekDev/Luna/main/assets/Full%20Logo.png)
 # Luna Programming Language
-![Issues](https://img.shields.io/bitbucket/issues/solindekdev/luna) ![Stars](https://img.shields.io/github/stars/solindekdev/luna) ![Lang](https://img.shields.io/github/languages/top/solindekdev/luna) ![](https://img.shields.io/discord/893609587138244618) ![](https://img.shields.io/tokei/lines/github/solindekdev/luna)
+![Stars](https://img.shields.io/github/stars/solindekdev/luna) ![Lang](https://img.shields.io/github/languages/top/solindekdev/luna) ![](https://img.shields.io/discord/893609587138244618) ![](https://img.shields.io/tokei/lines/github/solindekdev/luna)
 ## About
 Luna is a simple, fast, compiled programming language for writting various applications.
 ## Features
