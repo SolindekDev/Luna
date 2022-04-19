@@ -19,3 +19,5 @@ Luna is a simple, fast, compiled programming language for writting various appli
 - [ ] Self Compiler
 ## Screenshots
 ![](https://raw.githubusercontent.com/SolindekDev/Luna/main/screenshots/2_arithmetic_parser_testing.png)
+## Contributing
+If you wanna help in Luna Programming Language write to me on [Discord](https://discord.com/users/644446151210172447) or on other platforms [Contact With Solindek](https://solindek.tech/contact.html)
