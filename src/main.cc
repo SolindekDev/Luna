@@ -65,14 +65,8 @@ int main(int argc, char** argv) {
             Lexer* lexer = new Lexer("shell", shinput);
             std::vector<Tokens::Token> tokens = lexer->init();
 
-            if (lexer->is_error_message == true)
-                exit(0);
-
             ParserAST* parser = new ParserAST();
             parser->init(tokens);
-
-            if (parser->error == true) 
-                exit(0);
         }
 
     } else {
