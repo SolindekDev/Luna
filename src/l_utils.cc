@@ -1,6 +1,6 @@
 // ------------------------------------------------------------------------------------
 //
-//   Luna Programming Language Compiler - Main module
+//   Luna Programming Language Compiler
 //   Copyright (C) 2022 SolindekDev
 //
 //   This program is free software: you can redistribute it and/or modify
@@ -18,5 +18,18 @@
 //
 // ------------------------------------------------------------------------------------
 
-package main
+#include <iostream>
+#include <vector>
 
+#include <lexer.h>
+#include <l_utils.h>
+#include <error.h>
+#include <tokens.h>
+#include <io.h>
+
+void LUtils::show_tokens(std::vector<Tokens::Token> &tokens) {
+    for (int i = 0; i < tokens.size(); i++) 
+        Tokens::print_token(
+            tokens.at(i)
+        );
+}
